@@ -8,8 +8,6 @@
 # Commit 09b0cc4
 # https://raw.githubusercontent.com/fangkuia/XPTV/main/X/xptv.sgmodule
 
-[Rule]
-
 # 玩偶哥哥（直连）
 DOMAIN-KEYWORD, wogg
 DOMAIN-SUFFIX, wogg.link
