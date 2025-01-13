@@ -75,6 +75,20 @@ DOMAIN-SUFFIX, hongniuzy2.com, DIRECT
 
 # 量子资源（直连）
 DOMAIN-SUFFIX, lziapi.com, DIRECT
+DOMAIN-KEYWORD, cdnlz, DIRECT
+DOMAIN-KEYWORD, lzcdn, DIRECT
+DOMAIN-KEYWORD, lz-cdn, DIRECT
+# DOMAIN-KEYWORD, v.cdnlz, DIRECT
+DOMAIN, img.lzzyimg.com, DIRECT
+# DOMAIN,lzizy.net, DIRECT
+# DOMAIN,lzizy1.com, DIRECT
+# DOMAIN,lzizy2.com, DIRECT
+# DOMAIN,lzizy3.com, DIRECT
+# DOMAIN,lzizy4.com, DIRECT
+# DOMAIN,lzizy5.com, DIRECT
+# DOMAIN,lzizy6.com, DIRECT
+# DOMAIN,lzizy7.com, DIRECT
+# DOMAIN,lzizy8.com, DIRECT
 
 # 快车资源（直连）
 DOMAIN-SUFFIX, kczyapi.com, DIRECT
@@ -210,8 +224,6 @@ DOMAIN-SUFFIX, esuxun.com, DIRECT
 DOMAIN-KEYWORD, duanjutt, DIRECT
 DOMAIN-KEYWORD, suxun, DIRECT
 DOMAIN-KEYWORD, ffzy, DIRECT
-DOMAIN-KEYWORD, cdnlz, DIRECT
-DOMAIN-KEYWORD, lzcdn, DIRECT
 DOMAIN-SUFFIX, bfengbf.com, DIRECT
 DOMAIN-SUFFIX, bfikuncdn.com, DIRECT
 DOMAIN-KEYWORD, tencent-1257389134.cos, DIRECT
@@ -249,7 +261,6 @@ DOMAIN-KEYWORD, xlzyd, DIRECT
 DOMAIN, ikunzyapi.com, DIRECT
 DOMAIN-KEYWORD, ikzybf, DIRECT
 DOMAIN-KEYWORD, 49zyvideoplayurl, DIRECT
-DOMAIN-KEYWORD, v.cdnlz, DIRECT
 DOMAIN-KEYWORD, vip.kuaikan, DIRECT
 DOMAIN-KEYWORD, vip.ffzy, DIRECT
 DOMAIN-KEYWORD,kuaiyun, DIRECT
@@ -261,7 +272,6 @@ DOMAIN, hey11.cjkypo.com, DIRECT
 DOMAIN, hnts.ymuuy.com, DIRECT
 DOMAIN, hnzy.bfvvs.com, DIRECT
 DOMAIN-SUFFIX, maimn.com, DIRECT
-DOMAIN, img.lzzyimg.com, DIRECT
 DOMAIN, vip.ffzy-play5.com, DIRECT
 DOMAIN, vip.ffzy-online6.com, DIRECT
 DOMAIN, sss.image8899.net, DIRECT
