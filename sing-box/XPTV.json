@@ -1,0 +1,602 @@
+{
+  // # sing-box ( 引用链接，自行命名以及设置为直连 [DIRECT] )
+  // 2025-04-06
+  // Commit 8658c8e
+  // https://raw.githubusercontent.com/fangkuia/XPTV/main/X/clash.yaml
+
+  // 使用 "sing-box rule-set compile [--output <file-name>.srs] <file-name>.json" 命令将源文件编译为二进制规则集.
+
+  "version": 3,
+  "rules": [
+    // XPTV Helper
+    { "domain_suffix": ["xptvhelper.link"] },
+
+    // XPTV主站. 部分地区可以直连 (请自行尝试)
+    { "domain": ["infuseku.xyz"] },
+
+    // --------------------------------------------------
+    // XPTV 封面
+    // --------------------------------------------------
+
+    // 小海报
+    { "domain_suffix": ["doubanio.com"] },
+
+    // 大封面
+    { "domain": ["image.tmdb.org"] },
+
+    // 弹幕
+    { "domain": ["dandanplay.net"] },
+
+    // --------------------------------------------------
+    // 同步数据
+    // --------------------------------------------------
+
+    // { "domain": ["gateway.icloud.com"] },
+    // { "domain": ["metrics.icloud.com"] },
+
+    // --------------------------------------------------
+    // 网盘规则
+    // --------------------------------------------------
+
+    // 阿里
+    { "domain_suffix": ["aliyundrive.com"] },
+    { "domain_suffix": ["voicehub.top"] },
+
+    // 夸克
+    { "domain_suffix": ["quark.cn"] },
+
+    // 天翼
+    { "domain_suffix": ["189.cn"] },
+    { "domain_suffix": ["ctyunxs.cn"] },
+
+    // 115
+    { "domain_suffix": ["115.com"] },
+
+    // UC
+    { "domain_suffix": ["uc.cn"] },
+
+    // 小雅
+    { "domain_suffix": ["xiaoya.pro"] },
+
+    // --------------------------------------------------
+    // 网盘源
+    // --------------------------------------------------
+
+    // 小米
+    { "domain": ["mihdr.top"] },
+
+    // 木偶
+    { "domain_suffix": ["mogg.top"] },
+
+    // 玩偶
+    { "domain_suffix": ["wogg.one"] },
+
+    // 雷鲸
+    { "domain": ["www.leijing.xyz"] },
+
+    // 校长
+    { "domain": ["xzys.fun"] },
+
+    // 蜡笔
+    { "domain_suffix": ["duopan.fun"] },
+
+    // 南风
+    { "domain": ["www.nanf.cc"] },
+
+    // 多多
+    { "domain": ["yydsys.top"] },
+
+    // 欧歌
+    { "domain": ["woog.nxog.eu.org"] },
+
+    // 云盘吧
+    { "domain": ["yunpan8.cc"] },
+
+    // Live 相关
+    { "domain_suffix": ["bilivideo.com"] },
+    { "domain": ["slink.ltd"] },
+    { "domain_suffix": ["douyincdn.com"] },
+    { "domain_suffix": ["douyinpic.com"] },
+    { "domain_suffix": ["douyucdn.cn"] },
+    { "domain_suffix": ["douyucdn2.cn"] },
+    { "domain_suffix": ["huya.com"] },
+    { "domain_suffix": ["msstatic.com"] },
+    { "domain": ["lemonlive.deno.dev"] },
+
+    // --------------------------------------------------
+    // VOD 源
+    // --------------------------------------------------
+
+    // 低端
+    { "domain_suffix": ["ddys.pro"] },
+
+    // AGE
+    { "domain_suffix": ["agedm.org"] },
+
+    // ギリギリ
+    { "domain": ["anime.girigirilove.com"] },
+    { "domain": ["love.girigirilove.com"] },
+    { "domain": ["m3u8.girigirilove.com"] },
+
+    // 瓜子
+    { "domain": ["api.9cec79d.com"] },
+    { "domain": ["wjm.kemfsj.com"] },
+
+    // 4K-AV
+    { "domain": ["www.4k-av.com"] },
+
+    // 囧动漫
+    { "ip_cidr": ["43.142.232.217/32"] },
+    { "domain_suffix": ["fanchenstatic.com"] },
+    { "domain": ["i0.hdslb.com"] },
+    { "domain_suffix": ["bsgslb.cn"] },
+    { "domain_suffix": ["bytetos.com"] },
+    { "domain_suffix": ["douyinvod.com"] },
+    { "domain_suffix": ["byteimg.com"] },
+    { "ip_cidr": ["110.41.171.181/32"] },
+    { "ip_cidr": ["49.235.143.104/32"] },
+    { "domain_suffix": ["xhscdn.com"] },
+    { "domain_suffix": ["bdxiguastatic.com"] },
+    { "domain_suffix": ["zshtys888.com"] },
+
+    // libvio
+    { "domain": ["www.libvio.cc"] },
+    { "domain_suffix": ["mcloud.139.com"] },
+    { "domain_suffix": ["libvio.cloud"] },
+
+    // anfuns
+    { "domain_suffix": ["anfuns.org"] },
+    { "domain_suffix": ["bytegiftia.top"] },
+    { "domain_suffix": ["lenovo.com.cn"] },
+    { "domain": ["image.zhihuishu.com"] },
+    { "domain": ["presale.111.com.cn"] },
+
+    // hdmoli
+    { "domain": ["hdmoli.pro"] },
+    { "domain": ["v.damoli.pro"] },
+
+    // 哔嘀影视
+    { "domain": ["www.xlys01.com"] },
+    // { "domain_suffix": ["bytetos.com"] },
+
+    // 烧火影视
+    { "domain": ["saohuo.tv"] },
+    { "domain": ["hhjx.hhplayer.com"] },
+    { "domain_suffix": ["video.iqiyi.com"] },
+    { "domain_suffix": ["qitu-zuida.com"] },
+    { "domain": ["om.tc.qq.com"] },
+    { "domain_suffix": ["ibytedtos.com"] },
+    { "domain_suffix": ["1ljx.com"] },
+    { "domain_suffix": ["smtcdns.com"] },
+    { "domain": ["cme-video.vod-qcloud.com"] },
+
+    // NO 视频
+    { "domain": ["www.novipnoad.net"] },
+    { "domain_suffix": ["novipnoad.net"] },
+
+    // 韩剧看看
+    { "domain": ["www.hanjukankan.com"] },
+    { "domain": ["glzx.thekutv.com"] },
+    { "domain_suffix": ["thehanju.com"] },
+    { "domain_suffix": ["vvddoo.com"] },
+
+    // 星芽
+    { "domain": ["qiniu.rongjuwh.cn"] },
+    { "domain": ["app.whjzjx.cn"] },
+    { "domain": ["u.shytkjgs.com"] },
+    { "ip_cidr": ["218.22.23.189/32"] },
+    { "ip_cidr": ["117.68.35.135/32"] },
+    { "ip_cidr": ["218.22.23.229/32"] },
+    { "domain_suffix": ["qnqcdn.net"] },
+    { "domain_suffix": ["xingya.com.cn"] },
+    { "ip_cidr": ["117.68.35.139/32"] },
+
+    // 小苹果播放
+    { "ip_cidr": ["163.123.192.184/32"] },
+    { "ip_cidr": ["148.59.74.50/32"] },
+    { "ip_cidr": ["205.178.182.17/32"] },
+    { "ip_cidr": ["163.123.192.169/32"] },
+    { "ip_cidr": ["163.123.192.68/32"] },
+    { "ip_cidr": ["163.123.192.182/32"] },
+    { "ip_cidr": ["205.178.182.8/32"] },
+    { "ip_cidr": ["163.123.192.108/32"] },
+    { "ip_cidr": ["163.123.192.29/32"] },
+    { "ip_cidr": ["205.178.182.52/32"] },
+    { "ip_cidr": ["163.123.192.17/32"] },
+    { "domain": ["c.xpgtv.net"] },
+
+    // 厂长
+    { "domain": ["www.czzyvideo.com"] },
+    { "domain": ["qimgs.qunarzz.com"] },
+    { "domain": ["lf16-fe.resso.me"] },
+    { "domain_suffix": ["akamaized.net"] },
+    { "domain": ["t001.czzy.fun"] },
+    { "domain": ["vunyundun.czys.art"] },
+    { "domain_suffix": ["larksuitecdn.com"] },
+    { "domain": ["dc.xhscdn.com"] },
+    { "domain": ["mdn.alipayobjects.com"] },
+
+    // 天天
+    { "domain": ["op.ysdqjs.cn"] },
+
+    // 在线之家 (播放地址是 ctyunxs.cn, 在天翼那部分已经有了)
+    { "domain_suffix": ["zxzja.com"] },
+
+    // 素白白 (播放地址是 dc.xhscdn.com, 在厂长那部分已经有了)
+    { "domain": ["www.subaibaiys.com"] },
+
+    // --------------------------------------------------
+    // CMS 源
+    // --------------------------------------------------
+
+    // 360
+    { "domain": ["360zy.com"] },
+    { "domain": ["vod.lyhuicheng.com"] },
+
+    // 非凡
+    { "domain_keyword": ["ffzy"] },
+
+    // 墨斗
+    { "domain": ["www.mdzyapi.com"] },
+
+    // 黑木耳
+    { "domain_suffix": ["heimuer.tv"] },
+    { "domain_suffix": ["heimuer.xyz"] },
+    { "domain": ["2bzfvku2xwu7.com"] },
+    { "domain": ["n9ihkvv1ytjr.com"] },
+    { "domain": ["0cicgw0mte7y.com"] },
+    { "domain": ["r5oa1oqwh6gz.com"] },
+    { "domain": ["knfuzimvbmwr.com"] },
+    { "domain": ["ucul8pjt6v6h.com"] },
+    { "domain": ["5pvheva17etb.com"] },
+    { "domain": ["k6qgunhk9wuk.com"] },
+    { "domain": ["0uxzzy8thov3.com"] },
+    { "domain": ["5dagx9am9sai.com"] },
+    { "domain": ["omgyesityyhl.com"] },
+    { "domain": ["eucjzvub6vhr.com"] },
+    { "domain": ["tficf2xx0qxr.com"] },
+    { "domain": ["zqmdvefdijjx.com"] },
+    { "domain": ["jzuqfavoibww.com"] },
+    { "domain": ["in1eab44tnda.com"] },
+    { "domain": ["nfysfaemv1m2.com"] },
+    { "domain": ["rfjyb3bu5j0r.com"] },
+    { "domain": ["wjmgijixqcbc.com"] },
+    { "domain": ["jvgcazuedspp.com"] },
+    { "domain": ["fmxjkp6ekzcg.com"] },
+    { "domain": ["zea35s3nhdbn.com"] },
+    { "domain": ["zehnaxihujfi.com"] },
+    { "domain": ["0nzuqy0k3c35.com"] },
+    { "domain": ["yvocwep63nev.com"] },
+    { "domain": ["navogkbbnjl4.com"] },
+    { "domain": ["xgwr4phkkafo.com"] },
+    { "domain": ["om43531gxybq.com"] },
+    { "domain": ["3lky1u69bdx2.com"] },
+    { "domain": ["438pnr4dyywt.com"] },
+    { "domain": ["mdghhsgc4iiy.com"] },
+    { "domain": ["m3u8.hmrvideo.com"] },
+
+    // 华为吧
+    { "domain": ["hw8.live"] },
+    { "domain": ["selfcdn.simaguo.com"] },
+    { "domain": ["m3u.nikanba.live"] },
+
+    // 腐剧
+    { "domain": ["www.fuju2024.cc"] },
+    { "domain_suffix": ["yishihui.com"] },
+
+    // 金鹰
+    { "domain": ["image.jinyingimage.com"] },
+    { "domain": ["jinyingzy.com"] },
+    { "domain": ["c.baisiweiting.com"] },
+    { "domain": ["hd.ijycnd.com"] },
+
+    // OK 资源
+    { "domain": ["pic.okzy.xyz"] },
+    { "domain": ["wakdj.com"] },
+    { "domain_suffix": ["noop44.com"] },
+    { "domain_suffix": ["bxgbnet.com"] },
+    { "domain_suffix": ["xxya88.com"] },
+
+    // 宝片
+    { "domain": ["zpsps.com"] },
+    { "domain_keyword": ["bbffvip.com"] },
+    { "domain_keyword": ["rrcdnbf"] },
+
+    // 小黄人
+    { "domain": ["iqyi.xiaohuangrentv.com"] },
+    { "domain_keyword": ["jisu.com"] },
+
+    // 牛牛
+    { "domain": ["pic.niuniuzy.info"] },
+    { "domain_suffix": ["qrstt.com"] },
+    { "domain_suffix": ["stuuvwy.com"] },
+    { "domain_suffix": ["xingchongwang.com"] },
+
+    // 丫丫
+    { "domain_suffix": ["uvvv77.com"] },
+    { "domain_suffix": ["jklnopq.com"] },
+    { "domain": ["cj.yayazy.net"] },
+    { "domain_suffix": ["qdhdcate.com"] },
+
+    // 影图
+    { "domain": ["cj.vodimg.top"] },
+    { "domain_suffix": ["ghij11.com"] },
+    { "domain_suffix": ["tlkqc.com"] },
+    { "domain": ["pic.picturecdn.com"] },
+    { "domain": ["tlkqc.com"] },
+    { "domain_suffix": ["xaab57.com"] },
+
+    // U 酷
+    { "domain": ["api.ukuapi.com"] },
+    { "domain_keyword": ["ukzy.ukubf"] },
+
+    // 豪华
+    { "domain": ["hhzyapi.com"] },
+    { "domain": ["play.hhuus.com"] },
+    { "domain": ["p.hhwenjian.com"] },
+
+    // 极速
+    { "domain": ["jszyapi.com"] },
+
+    // 索尼
+    { "domain": ["snzypic.vip"] },
+    { "domain_keyword": ["hiij"] },
+    { "domain_suffix": ["nopqq.vip"] },
+    { "domain_suffix": ["uvwwx.vip"] },
+    { "domain_suffix": ["pqqrs.vip"] },
+    { "domain_suffix": ["qrssv.com"] },
+
+    // ikun
+    { "domain": ["www.imgikzy.com"] },
+    { "domain": ["kkzycdn.com"] },
+    { "domain": ["bfikuncdn.com"] },
+
+    // 量子
+    { "domain": ["cj.lziapi.com"] },
+    { "domain": ["img.lzzyimg.com"] },
+    { "domain_keyword": ["v.cdnlz"] },
+
+    // 暴风
+    { "domain_suffix": ["bfzypic.com"] },
+    { "domain": ["bfzyapi.com"] },
+    { "domain_suffix": ["bfllvip.com"] },
+
+    // 红牛
+    { "domain": ["www.hongniuzy2.com"] },
+    { "domain": ["hn.bfvvs.com"] },
+    { "domain": ["hnts.ymuuy.com"] },
+
+    // 快车
+    { "domain": ["caijl.kczyapi.com"] },
+    { "domain_suffix": ["fghjklm.com"] },
+    { "domain_suffix": ["ijkklmn.com"] },
+    { "domain_suffix": ["longshengtea.com"] },
+    { "domain_suffix": ["stuuv.vip"] },
+
+    // 闪电
+    { "domain": ["sdzyapi.com"] },
+    { "domain_suffix": ["qrrs56.com"] },
+    { "domain_suffix": ["wwxy0.com"] },
+    { "domain_suffix": ["fentvoss.com"] },
+
+    // 樱花
+    { "domain": ["m3u8.apiyhzy.com"] },
+    { "domain_suffix": ["ijkkl.vip"] },
+    { "domain_suffix": ["abcce.vip"] },
+    { "domain_suffix": ["mmnn34.com"] },
+    { "domain_suffix": ["vwxx78.com"] },
+    { "domain_suffix": ["stttu.vip"] },
+    { "domain_suffix": ["tuvvv.vip"] },
+    { "domain_suffix": ["ijkmnno.com"] },
+    { "domain_suffix": ["deefg.vip"] },
+    { "domain_suffix": ["lmnoprs.com"] },
+    { "domain_keyword": ["shes"] },
+    { "domain_suffix": ["yhzybf.com"] },
+    { "domain_suffix": ["wgslsw.com"] },
+    { "domain": ["pic.jegms.com"] },
+
+    // 卧龙
+    { "domain": ["collect.wolongzyw.com"] },
+    { "domain": ["pic.wlongimg.com"] },
+    { "domain_keyword": ["cdn.wls"] },
+    { "domain_keyword": ["cdn.wlcdn"] },
+
+    // 虎牙
+    { "domain_keyword": [".huya"] },
+
+    // 飘零
+    { "domain": ["p2100.net"] },
+
+    // 无尽
+    { "domain": ["api.wujinapi.com"] },
+    { "domain_suffix": ["stuv67.com"] },
+    { "domain_suffix": ["hjjk22.com"] },
+    { "domain_suffix": ["jkkl23.com"] },
+    { "domain": ["v5.xyaa88.com"] },
+
+    // 速博
+    { "domain_keyword": ["subo"] },
+    { "domain": ["play.subokk.com"] },
+    { "domain_suffix": ["xlzyd.com"] },
+
+    // 魔都
+    { "domain": ["caiji.moduapi.cc"] },
+    { "domain": ["www.mdzypic.com"] },
+    { "domain_keyword": ["play.modujx"] },
+
+    // 最大
+    { "domain": ["ok.zuidapic.com"] },
+    { "domain": ["zuidazy.me"] },
+    { "domain_suffix": ["daayee.com"] },
+
+    // 新浪
+    { "domain": ["xinlangtupian.com"] },
+    { "domain": ["play.xluuss.com"] },
+
+    // 八戒
+    { "domain_suffix": ["monidai.com"] },
+    { "domain_suffix": ["hdslb.pro"] },
+
+    // --------------------------------------------------
+    // CMS 源
+    // --------------------------------------------------
+
+    // 森林
+    { "domain": ["slapibf.com"] },
+    { "domain": ["fmtu.sltututu.com"] },
+    { "domain_suffix": ["bbffsl.com"] },
+
+    // 探探
+    { "domain": ["apittzy.com"] },
+    { "domain": ["vod1.ttbfp2.com"] },
+
+    // 奥斯卡
+    { "domain": ["aosikazy.com"] },
+    { "domain": ["bfaskcdn.com"] },
+    { "domain": ["uqetyzxa.com"] },
+
+    // 老鸭
+    { "domain": ["api.apilyzy.com"] },
+    { "domain": ["img.lytuchuang91.com"] },
+    { "domain_suffix": ["laoyacdn.com"] },
+
+    // 91 麻豆
+    { "domain": ["666529.xyz"] },
+    { "domain": ["91md.me"] },
+    { "domain_suffix": ["97img.com"] },
+    { "domain": ["cctv123456.com"] },
+    { "domain_suffix": ["cdn2020.com"] },
+
+    // 易看
+    { "domain": ["img.yikanimg.top"] },
+    { "domain": ["api.yikanapi.com"] },
+    { "domain": ["v.ykv3.com"] },
+
+    // 番号
+    { "domain": ["fm.fhpicpic.com"] },
+    { "domain": ["fhapi9.com"] },
+    { "domain": ["v2024.fhbbff.com"] },
+
+    // 鲨鱼
+    { "domain": ["sycdn.ddljsytt.com"] },
+    { "domain": ["v2024.sysybf.com"] },
+
+    // Alvin
+    { "domain": ["fm.lbpicpic.com"] },
+    { "domain": ["lbapiby.com"] },
+    { "domain": ["vip3.lbbf9.com"] },
+
+    // 黄瓜
+    { "domain": ["player.hgplayer00.com"] },
+    { "domain": ["img.hgimg00.com"] },
+
+    // 玉兔
+    { "domain": ["sbzytpimg2.com"] },
+    { "domain": ["apiyutu.com"] },
+    { "domain": ["yutubf.lsbbf3.com"] },
+
+    // 辣椒
+    { "domain_suffix": ["newljlj.com"] },
+    { "domain": ["ljcdn.ddljsytt.com"] },
+
+    // 奶香香
+    { "domain": ["guzwiayz.com"] },
+    { "domain": ["naixxzy.com"] },
+    { "domain": ["nxxplayurl.com"] },
+
+    // 精品
+    { "domain": ["jinpinxm.com"] },
+    { "domain_keyword": ["jingpinx.com"] },
+    { "domain": ["05hao.top"] },
+
+    // 草榴
+    { "domain": ["www.caoliuzyw.com"] },
+    { "domain_suffix": ["comodoca.com"] },
+    { "domain_suffix": ["usertrust.com"] },
+    { "domain_suffix": ["sectigo.com"] },
+    { "domain_suffix": ["caoliuzywimg.com"] },
+    { "domain": ["player.cl9987.com"] },
+
+    // 老色逼
+    { "domain": ["apilsbzy1.com"] },
+
+    // 杂七杂八封面
+    { "domain": ["img.kuaichezy.net"] },
+    { "domain": ["puui.qpic.cn"] },
+    { "domain_suffix": ["jisuimage.com"] },
+    { "domain_suffix": ["toutiaoimg.com"] },
+    { "domain_suffix": ["yzzyimages.com"] },
+    { "domain": ["hhmage.com"] },
+    { "domain": ["wework.qpic.cn"] },
+    { "domain": ["pic.rmb.bdstatic.com"] },
+    { "domain_suffix": ["alicdn.com"] },
+    { "domain_suffix": ["ykimg.com"] },
+    { "domain_suffix": ["netease.com"] },
+    { "domain_suffix": ["gtimg.cn"] },
+    { "domain_suffix": ["meituan.net"] },
+    { "domain": ["mdn.alipay.com"] },
+    { "domain": ["fc.sinaimg.cn"] },
+    { "domain": ["img.moegirl.org.cn"] },
+    { "domain": ["pic8.iqiyipic.com"] },
+    { "domain": ["p0.qhimg.com"] },
+    { "domain_suffix": ["iqiyipic.com"] },
+    { "domain": ["api.zaqohu.com"] },
+    { "domain": ["images.67c6c7a.com"] },
+    { "domain": ["pic7.58cdn.com.cn"] },
+    { "domain": ["help-ol.bj.bcebos.com"] },
+    { "domain_suffix": ["loli.net"] },
+    { "domain_suffix": ["360buyimg.com"] },
+    { "domain": ["pic1.imgyzzy.com"] },
+    { "domain": ["get.sogou.com"] },
+    { "domain": ["open.bigmodel.cn"] },
+    { "domain": ["vcover-vt-pic.puui.qpic.cn"] },
+    { "domain": ["img.lzzyimg.com"] },
+    { "domain": ["fs-im-kefu.7moor-fs1.com"] },
+    { "domain": ["img.image8899.net"] },
+    { "domain": ["img.picgo.net"] },
+    { "domain": ["pic3.yzzyimages.com"] },
+    { "domain": ["647bc185.szrtcpa.com"] },
+    { "domain": ["img.98ha.com"] },
+    { "domain": ["challenge.rivers.chaitin.cn"] },
+    { "domain": ["image.maimn.com"] },
+    { "domain_suffix": ["baidu.com"] },
+    { "domain": ["img.liangzipic.com"] },
+    { "domain": ["imagev2.xmcdn.com"] },
+    { "domain": ["pic.imgdb.cn"] },
+    { "domain": ["pic3.yzzyimg.online"] },
+    { "domain": ["wx4.sinaimg.cn"] },
+    { "domain": ["img.jisuimage.com"] },
+    { "domain": ["pic.wujinpp.com"] },
+    { "domain": ["suboimage.com"] },
+    { "domain": ["img.ffzy888.com"] },
+
+    // --------------------------------------------------
+    // XPAV 源
+    // --------------------------------------------------
+
+    // Hanime1
+    { "domain": ["vdownload.hembed.com"] },
+
+    // MISSAV
+    { "domain": ["surrit.com"] },
+
+    // SupJav-ST
+    { "domain": ["streamtape.com"] },
+    { "domain_suffix": ["tapecontent.net"] },
+
+    // 秋名山见
+    { "domain": ["api.maiyoux.com"] },
+    { "domain_suffix": ["xinzhisoft.xyz"] },
+    { "domain_suffix": ["zhenyidaoxinxi.top"] },
+    { "domain_suffix": ["xinzhitushu.xyz"] },
+    { "domain_suffix": ["dmtmax.cn"] },
+    { "domain_suffix": ["anfangmart.cn"] },
+    { "domain_suffix": ["dapengjiaoyu.top"] },
+    { "domain_suffix": ["aliyuncs.com"] },
+    { "domain_suffix": ["kdfwz.top"] },
+
+    // 91AV
+    { "domain_suffix": ["knzaol.cn"] },
+    { "domain_suffix": ["bndmpsjx.com"] }
+  ]
+}
