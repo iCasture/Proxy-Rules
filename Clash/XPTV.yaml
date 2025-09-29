@@ -175,7 +175,7 @@ payload:
   - DOMAIN-SUFFIX, akamaized.net
   - DOMAIN, t001.czzy.fun
   - DOMAIN, vunyundun.czys.art
-  - DOMAIN-SUFFIX, larksuitecdn.com
+  # - DOMAIN-SUFFIX, larksuitecdn.com
   - DOMAIN, dc.xhscdn.com
   - DOMAIN, mdn.alipayobjects.com
 # 天天主页

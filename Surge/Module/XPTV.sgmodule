@@ -236,7 +236,7 @@ DOMAIN, lf16-fe.resso.me, DIRECT
 DOMAIN-SUFFIX, akamaized.net, DIRECT
 DOMAIN, t001.czzy.fun, DIRECT
 DOMAIN, vunyundun.czys.art, DIRECT
-DOMAIN-SUFFIX, larksuitecdn.com, DIRECT
+# DOMAIN-SUFFIX, larksuitecdn.com, DIRECT
 DOMAIN, dc.xhscdn.com, DIRECT
 DOMAIN, mdn.alipayobjects.com, DIRECT
 

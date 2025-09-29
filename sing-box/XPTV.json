@@ -212,7 +212,7 @@
     { "domain_suffix": ["akamaized.net"] },
     { "domain": ["t001.czzy.fun"] },
     { "domain": ["vunyundun.czys.art"] },
-    { "domain_suffix": ["larksuitecdn.com"] },
+    // { "domain_suffix": ["larksuitecdn.com"] },
     { "domain": ["dc.xhscdn.com"] },
     { "domain": ["mdn.alipayobjects.com"] },
 
