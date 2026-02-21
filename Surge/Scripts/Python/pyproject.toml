@@ -1,0 +1,9 @@
+[project]
+    name            = "surge-helper-scripts"
+    version         = "0.1.0"
+    description     = "Helper Python scripts for Surge."
+    requires-python = ">=3.14"
+    dependencies    = [ "babel>=2.18.0", "requests>=2.32.5" ]
+
+[dependency-groups]
+    dev = [ "types-requests>=2.32.4.20260107" ]
